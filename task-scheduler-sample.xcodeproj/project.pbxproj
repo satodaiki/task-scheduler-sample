@@ -14,6 +14,7 @@
 		6BA654B92323EA11002637C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA654B72323EA11002637C0 /* LaunchScreen.storyboard */; };
 		6BA654C42323EA11002637C0 /* task_scheduler_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA654C32323EA11002637C0 /* task_scheduler_sampleTests.swift */; };
 		6BA654CF2323EA11002637C0 /* task_scheduler_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA654CE2323EA11002637C0 /* task_scheduler_sampleUITests.swift */; };
+		6BA654DD2323EBFF002637C0 /* tit_ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BA654DC2323EBFF002637C0 /* tit_ball.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6BA654CA2323EA11002637C0 /* task-scheduler-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "task-scheduler-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA654CE2323EA11002637C0 /* task_scheduler_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task_scheduler_sampleUITests.swift; sourceTree = "<group>"; };
 		6BA654D02323EA11002637C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA654DC2323EBFF002637C0 /* tit_ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tit_ball.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				6BA654AE2323EA0C002637C0 /* AppDelegate.swift */,
 				6BA654B02323EA0C002637C0 /* ViewController.swift */,
 				6BA654B22323EA0C002637C0 /* Main.storyboard */,
+				6BA654DC2323EBFF002637C0 /* tit_ball.jpg */,
 				6BA654B52323EA11002637C0 /* Assets.xcassets */,
 				6BA654B72323EA11002637C0 /* LaunchScreen.storyboard */,
 				6BA654BA2323EA11002637C0 /* Info.plist */,
@@ -231,6 +234,7 @@
 			files = (
 				6BA654B92323EA11002637C0 /* LaunchScreen.storyboard in Resources */,
 				6BA654B62323EA11002637C0 /* Assets.xcassets in Resources */,
+				6BA654DD2323EBFF002637C0 /* tit_ball.jpg in Resources */,
 				6BA654B42323EA0C002637C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
