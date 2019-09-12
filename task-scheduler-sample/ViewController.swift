@@ -11,14 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var titBallImage: UIImageView!
-    @IBOutlet weak var touchCountStr: UILabel!
+    @IBOutlet weak var loginTextLabel: UILabel!
+    @IBOutlet weak var touchCountLabel: UILabel!
     
-    var touchCount: Int = 1
+    /** ログインに必要な画像タッチカウント */
+    let LOGIN_COUNT = 3
     
-    @IBAction func titTapAction(_ sender: Any) {
-        touchCountStr.text = String(touchCount)
-        touchCount = touchCount + 1
-    }
+    /** タッチしたカウント */
+    var touchCount: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +28,21 @@ class ViewController: UIViewController {
         
         // Image Viewに画像を設定
         titBallImage.image = image
+        
+        let text = "おっぱいを\(String(LOGIN_COUNT))回タッチしてください。"
+        
+        loginTextLabel.text = text
+    }
+    
+    @IBAction func titTapAction(_ sender: Any) {
+        touchCount = touchCount + 1
+        
+        // 3回クリックしたらタスクスケジューラ画面へ遷移
+        if touchCount == LOGIN_COUNT {
+            self.performSegue(withIdentifier: "loginSegue", sender: nil)
+        } else {
+            touchCountLabel.text = String(touchCount)
+        }
     }
 }
 
